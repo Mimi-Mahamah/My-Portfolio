@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+* {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+body {
+    background-color: #9187B0;
+    background-image: linear-gradient(to left, #B1B8E6, #B4A5D1);
+    background: url(classy-fabric.png), linear-gradient(to left, #debfe0, #B4A5D1, #B1B8E6);
+    /* overflow-x: hidden; */
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #50336D; */
+    width: 100%;
+    height: 100vh;
+    color: #FFDFD3;
+    position: relative;
+    bottom: 8em;
+}
+
+.about-section2 {
+    position: relative;
+    bottom: 9em;
+}
+
+p {
+    font-size: 25px;
+    color: #FFDFD3;
+    text-shadow: 1px 1px 5px #50336D;
+    /* border: 1px solid #50336D; */
+    text-align: center;
+    position: relative;
+    bottom: 7em;
+    left: 1em;
+    width: 30%;
+    height: 80%;
+}
+
+#greeting {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+    color: #02c7c9;
+    text-shadow: 1px 1px 5px #50336D;
+    /* border: 1px solid #50336D; */
+    width: 34%;
+    padding-left: 0.2em;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 40px;
+    color: #FFDFD3;
+    text-shadow: 1px 1px 4px #50336D;
+    position: relative;
+    right: 10.5em;
+    bottom: 7em;
+}
+
+.profile {
+    width: 12em;
+    height: 12em;
+    border: 2px solid #B1B8E6;
+    border-radius: 10em;
+    position: relative;
+    right: 26em;
+    top: 2em;
+}
+
+
+/* Animation */
+
+#woman {
+    width: 30em;
+    position: relative;
+    bottom: 68em;
+    left: 45em;
+}
+
+
+/* Buttons */
+
+.buttons {
+    position: relative;
+    bottom: 38em;
+    left: 25em;
+    padding: 5em;
+    /* border: 1px solid #50336D; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+button {
+    width: 8em;
+    height: 3em;
+    font-size: 25px;
+    color: #d291bc;
+    text-shadow: 1px 1px 0.5px #50336D;
+    border-radius: 1em;
+    border: none;
+    background-color: #FFDFD3;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #d291bc;
+    color: #FFDFD3;
+}
+
+
+/* Contact Me section */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid #50336D; */
+    width: 5%;
+    position: relative;
+    bottom: 90em;
+    left: 25em;
+}
+
+#github,
+#linkedin {
+    width: 3em;
+    fill: #9187B0;
+}
+
+
+/* Skills Section */
+
+#skill-section {
+    position: relative;
+    bottom: 23em;
+    padding-top: 0.5em;
+    padding-bottom: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-top: 1.5px solid #50336D;
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+    color: #02c7c9;
+    text-shadow: 1px 1px 5px #50336D;
+    /* border: 1px solid #50336D; */
+}
+
+.skills,
+.skills2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.skills {
+    position: relative;
+    bottom: 75em;
+}
+
+.skills2 {
+    position: relative;
+    bottom: 70em;
+    left: 5em;
+}
+
+.skill-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #B1B8E6;
+    width: 10%;
+    height: 8em;
+    background-color: #50336D;
+    border-radius: 2em;
+    padding-top: 0.5em;
+}
+
+h4 {
+    font-size: 20px;
+    color: #FFDFD3;
+    text-shadow: 1px 1px 5px #50336D;
+    position: relative;
+    bottom: 0.5em;
+}
+
+#circles {
+    width: 10em;
+}
+
+
+/* Projects */
+
+#project-section {
+    position: relative;
+    bottom: 20em;
+    left: 8.5em;
+}
+
+.github-icon {
+    width: 1.5em;
+    position: relative;
+    top: 0.5em;
+}
+
+
+/* card styling */
+
+#delicious {
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 300px;
+    margin: -150px;
+    float: left;
+    perspective: 500px;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.card:hover .content {
+    transform: rotateY( 180deg);
+    transition: transform 0.5s;
+}
+
+.front,
+.back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #FFDFD3;
+    line-height: 300px;
+    color: #d291bc;
+    text-align: center;
+    font-size: 60px;
+    border-radius: 5px;
+    backface-visibility: hidden;
+}
+
+.back {
+    background: #d291bc;
+    color: white;
+    transform: rotateY( 180deg);
+}
+
+
+/* Project 1 */
+
+.project-1 {
+    position: relative;
+    right: 20em;
+    bottom: 46em;
+}
+
+
+/* Project 2 */
+
+.project-2 {
+    position: relative;
+    bottom: 46em;
+    left: 15em;
+}
+
+
+/* Responsiveness */
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: #50336D;
+    }
+}
