@@ -2,14 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 * {
-    font-family: 'Barlow Condensed', sans-serif;
+    box-sizing: border-box;
 }
 
 body {
+    font-family: 'Barlow Condensed', sans-serif;
     background-color: #9187B0;
-    background-image: linear-gradient(to left, #B1B8E6, #B4A5D1);
-    background: url(classy-fabric.png), linear-gradient(to left, #debfe0, #B4A5D1, #B1B8E6);
-    /* overflow-x: hidden; */
+    background: url(classy-fabric.png), linear-gradient(to left, #debfe0, #B4A5D1, #B1B8E6), no-repeat;
+    background-size: inherit;
+    overflow-x: hidden;
+    margin-bottom: 0;
+    min-height: 100%
 }
 
 .about {
@@ -17,7 +20,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* border: 1px solid #50336D; */
     width: 100%;
     height: 100vh;
     color: #FFDFD3;
@@ -34,7 +36,6 @@ p {
     font-size: 25px;
     color: #FFDFD3;
     text-shadow: 1px 1px 5px #50336D;
-    /* border: 1px solid #50336D; */
     text-align: center;
     position: relative;
     bottom: 7em;
@@ -43,12 +44,11 @@ p {
     height: 80%;
 }
 
-#greeting {
+.greeting {
     font-family: 'Roboto Mono', monospace;
     font-size: 50px;
     color: #02c7c9;
     text-shadow: 1px 1px 5px #50336D;
-    /* border: 1px solid #50336D; */
     width: 34%;
     padding-left: 0.2em;
     position: relative;
@@ -66,7 +66,7 @@ h2 {
 }
 
 .profile {
-    width: 12em;
+    width: 10em;
     height: 12em;
     border: 2px solid #B1B8E6;
     border-radius: 10em;
@@ -78,11 +78,14 @@ h2 {
 
 /* Animation */
 
-#woman {
+.woman {
+    margin-right: 0;
+    box-sizing: content-box;
     width: 30em;
     position: relative;
-    bottom: 68em;
-    left: 45em;
+    bottom: 65em;
+    left: 49em;
+    overflow: hidden;
 }
 
 
@@ -93,11 +96,11 @@ h2 {
     bottom: 38em;
     left: 25em;
     padding: 5em;
-    /* border: 1px solid #50336D; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 20%;
+    width: 20em;
+    overflow: hidden;
 }
 
 button {
@@ -124,11 +127,10 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 1px solid #50336D; */
     width: 5%;
     position: relative;
     bottom: 90em;
-    left: 25em;
+    left: 22em;
 }
 
 #github,
@@ -154,7 +156,6 @@ button:hover {
     font-size: 50px;
     color: #02c7c9;
     text-shadow: 1px 1px 5px #50336D;
-    /* border: 1px solid #50336D; */
 }
 
 .skills,
@@ -162,7 +163,8 @@ button:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 90%;
+    width: 100%;
+    right: 5em;
 }
 
 .skills {
@@ -172,8 +174,8 @@ button:hover {
 
 .skills2 {
     position: relative;
-    bottom: 70em;
-    left: 5em;
+    bottom: 67em;
+    left: 1em;
 }
 
 .skill-icons {
@@ -196,102 +198,152 @@ h4 {
     bottom: 0.5em;
 }
 
-#circles {
-    width: 10em;
-}
-
 
 /* Projects */
 
 #project-section {
     position: relative;
     bottom: 20em;
-    left: 8.5em;
-}
-
-.github-icon {
-    width: 1.5em;
-    position: relative;
-    top: 0.5em;
-}
-
-
-/* card styling */
-
-#delicious {
-    width: 400px;
-    height: 300px;
-    border-radius: 5px;
-}
-
-.card {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 400px;
-    height: 300px;
-    margin: -150px;
-    float: left;
-    perspective: 500px;
-}
-
-.content {
-    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-top: 1.5px solid #50336D;
     width: 100%;
-    height: 100%;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    transition: transform 1s;
-    transform-style: preserve-3d;
-}
-
-.card:hover .content {
-    transform: rotateY( 180deg);
-    transition: transform 0.5s;
-}
-
-.front,
-.back {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: #FFDFD3;
-    line-height: 300px;
-    color: #d291bc;
-    text-align: center;
-    font-size: 60px;
-    border-radius: 5px;
-    backface-visibility: hidden;
-}
-
-.back {
-    background: #d291bc;
-    color: white;
-    transform: rotateY( 180deg);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+    color: #02c7c9;
+    text-shadow: 1px 1px 5px #50336D;
 }
 
 
 /* Project 1 */
 
-.project-1 {
+.github-icon {
+    width: 5em;
     position: relative;
-    right: 20em;
-    bottom: 46em;
+    bottom: 93em;
+    left: 37em;
+}
+
+#sodelicious,
+#portfolio-screenshot {
+    width: 30em;
+    height: 20em;
+    border-radius: 2em;
+    border: 3px solid #02c7c9;
+}
+
+#sodelicious {
+    position: relative;
+    bottom: 60em;
+    left: 5em;
+}
+
+.project-1-about {
+    position: relative;
+    bottom: 50em;
+    left: 30em;
 }
 
 
 /* Project 2 */
 
-.project-2 {
+#portfolio-screenshot {
     position: relative;
-    bottom: 46em;
-    left: 15em;
+    bottom: 55em;
 }
 
+.project-2-about {
+    position: relative;
+    bottom: 50em;
+    left: 30em;
+}
 
-/* Responsiveness */
+.github-icon2 {
+    width: 5em;
+    position: relative;
+    bottom: 63em;
+    left: 2em;
+}
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 600px) {
     body {
-        background-color: #50336D;
+        background: url(classy-fabric.png), linear-gradient(to left, #debfe0, #B4A5D1, #B1B8E6), no-repeat;
+        overscroll-behavior-y: hidden;
+    }
+    .greeting {
+        font-size: 2em;
+        padding: 0.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        left: 1em;
+    }
+    .profile {
+        right: 2em;
+        top: -10em;
+        width: 8em;
+        height: 10em;
+    }
+    h2 {
+        right: 1em;
+        bottom: 4.5em;
+    }
+    p {
+        left: 1.5em;
+        bottom: 18em;
+        width: 10em;
+        font-size: 23px;
+    }
+    .contact {
+        left: 6em;
+        bottom: 85em;
+        flex-direction: row;
+    }
+    .buttons {
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 15em;
+        padding: 1em;
+        bottom: 27em;
+        left: 1em;
+    }
+    button {
+        width: 4em;
+        font-size: 19px;
+    }
+    #skill-section {
+        padding: 0.5em;
+        right: 1em;
+        bottom: 22em;
+    }
+    .skills {
+        right: -1em;
+        bottom: 68em;
+        flex-wrap: wrap;
+        /* border: solid 1px red; */
+        width: 17em;
+        height: 16em;
+        justify-content: space-evenly;
+    }
+    .skills2 {
+        left: 1em;
+        bottom: 67em;
+        width: 17em;
+    }
+    .skill-icons {
+        width: 4em;
+        height: 5em;
+        padding: 0.5em;
+    }
+    h4 {
+        font-size: 17px;
+    }
+    .skill-svg {
+        width: 2em;
+    }
+    .woman {
+        display: none;
     }
 }

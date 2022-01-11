@@ -3,10 +3,10 @@ import React from "react";
 
 export default function About() {
     return (
-        <div>
-            <h1 id="greeting">Salutations</h1>
+        <>
+            <h1 className="greeting">Salutations</h1>
             <div className="about">
-        <img src="./me.jpeg" className="profile" alt=""/>
+        <img src="./me.jpg" className="profile" alt="my profile picture"/>
         <h2>I'm Mimi!</h2>
         </div>
         <div className="about-section2">
@@ -19,8 +19,8 @@ export default function About() {
             <a href="#project-section">
             <button>Projects</button>
             </a>
-            </div>
-            </div>
         </div>
+        </div>
+            </>
     )
 }
