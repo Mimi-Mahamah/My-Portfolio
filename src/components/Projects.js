@@ -17,6 +17,8 @@ export default function Projects() {
                 <img src="./github.svg" alt="github icon" className="github-icon2" />
             </a>
             <p className="project-2-about">This web app was created using react.</p>
+            
+            <h1 className="coming-soon">More Projects Coming Soon!</h1>
         </>
     )
 }

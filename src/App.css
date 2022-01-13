@@ -266,6 +266,15 @@ h4 {
     left: 2em;
 }
 
+.coming-soon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 5em;
+    font-size: 50px;
+    color: #50336D;
+}
+
 @media screen and (max-width: 600px) {
     body {
         background: url(classy-fabric.png), linear-gradient(to left, #debfe0, #B4A5D1, #B1B8E6), no-repeat;
@@ -273,54 +282,56 @@ h4 {
     }
     .greeting {
         font-size: 2em;
-        padding: 0.5em;
+        padding-bottom: 0.5em;
         display: flex;
         justify-content: center;
         align-items: center;
         width: 60%;
-        left: 1em;
+        left: 2em;
     }
     .profile {
-        right: 2em;
-        top: -10em;
+        right: 0em;
+        top: 1.5em;
         width: 8em;
         height: 10em;
     }
     h2 {
-        right: 1em;
-        bottom: 4.5em;
+        right: 0em;
+        bottom: 5.5em;
     }
     p {
-        left: 1.5em;
-        bottom: 18em;
+        left: 3.5em;
+        bottom: 10.5em;
         width: 10em;
-        font-size: 23px;
+        font-size: 20px;
     }
     .contact {
-        left: 6em;
-        bottom: 85em;
-        flex-direction: row;
+        left: 2em;
+        bottom: 30em;
+        flex-direction: column;
     }
     .buttons {
         flex-direction: row;
         justify-content: space-evenly;
         width: 15em;
         padding: 1em;
-        bottom: 27em;
-        left: 1em;
+        bottom: 14em;
+        left: 3em;
     }
     button {
         width: 4em;
         font-size: 19px;
     }
+    /* Skill section */
     #skill-section {
-        padding: 0.5em;
-        right: 1em;
-        bottom: 22em;
+        padding-top: 0.5em;
+        right: 0em;
+        bottom: 9.5em;
     }
     .skills {
-        right: -1em;
-        bottom: 68em;
+        right: 0em;
+        left: 2em;
+        bottom: 35em;
         flex-wrap: wrap;
         /* border: solid 1px red; */
         width: 17em;
@@ -328,14 +339,14 @@ h4 {
         justify-content: space-evenly;
     }
     .skills2 {
-        left: 1em;
-        bottom: 67em;
+        left: 2em;
+        bottom: 34em;
         width: 17em;
     }
     .skill-icons {
-        width: 4em;
-        height: 5em;
-        padding: 0.5em;
+        width: 4.5em;
+        height: 5.5em;
+        padding: 0.3em;
     }
     h4 {
         font-size: 17px;
@@ -345,5 +356,40 @@ h4 {
     }
     .woman {
         display: none;
+    }
+    /* Projects */
+    #project-section {
+        top: -10em;
+    }
+    #sodelicious {
+        top: 0em;
+        width: 15em;
+        height: 10em;
+        top: -30em;
+        left: 1em;
+    }
+    #portfolio-screenshot {
+        top: -22em;
+        width: 15em;
+        height: 10em;
+        left: -2em;
+    }
+    .github-icon {
+        width: 3em;
+        bottom: 26em;
+        left: 17em;
+    }
+    .github-icon2 {
+        width: 3em;
+        left: -1em;
+        bottom: 49em;
+    }
+    .project-1-about {
+        bottom: 25em;
+        left: 2em;
+    }
+    .project-2-about {
+        bottom: 18em;
+        left: 2em;
     }
 }
