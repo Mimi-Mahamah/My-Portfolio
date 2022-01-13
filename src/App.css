@@ -221,7 +221,7 @@ h4 {
 .github-icon {
     width: 5em;
     position: relative;
-    bottom: 93em;
+    bottom: 104em;
     left: 37em;
 }
 
@@ -240,9 +240,11 @@ h4 {
 }
 
 .project-1-about {
+    background-color: #50336D;
     position: relative;
     bottom: 50em;
     left: 30em;
+    border-radius: 0.5em;
 }
 
 
@@ -254,9 +256,11 @@ h4 {
 }
 
 .project-2-about {
+    background-color: #50336D;
     position: relative;
-    bottom: 50em;
+    bottom: 45em;
     left: 30em;
+    border-radius: 0.5em;
 }
 
 .github-icon2 {
@@ -291,68 +295,74 @@ h4 {
     }
     .profile {
         right: 0em;
-        top: 1.5em;
+        top: -3.5em;
         width: 8em;
         height: 10em;
     }
     h2 {
         right: 0em;
-        bottom: 5.5em;
+        bottom: 8.5em;
     }
     p {
         left: 3.5em;
-        bottom: 10.5em;
+        bottom: 17.5em;
         width: 10em;
-        font-size: 20px;
+        font-size: 24px;
     }
     .contact {
-        left: 2em;
-        bottom: 30em;
-        flex-direction: column;
+        left: 10em;
+        bottom: 39em;
+        flex-direction: row;
     }
     .buttons {
         flex-direction: row;
         justify-content: space-evenly;
-        width: 15em;
+        width: 19em;
         padding: 1em;
-        bottom: 14em;
+        bottom: 19em;
         left: 3em;
     }
     button {
-        width: 4em;
+        width: 6em;
         font-size: 19px;
     }
     /* Skill section */
     #skill-section {
         padding-top: 0.5em;
         right: 0em;
-        bottom: 9.5em;
+        bottom: 9em;
     }
     .skills {
         right: 0em;
         left: 2em;
-        bottom: 35em;
+        bottom: 33em;
         flex-wrap: wrap;
-        /* border: solid 1px red; */
-        width: 17em;
+        width: 20em;
         height: 16em;
         justify-content: space-evenly;
     }
     .skills2 {
         left: 2em;
-        bottom: 34em;
-        width: 17em;
+        bottom: 32em;
+        flex-wrap: wrap;
+        width: 20em;
+        border: solid #0000 1px;
+        height: 24em;
+        padding-top: 0.5em;
+        padding-bottom: 2em;
+        justify-content: space-evenly;
     }
     .skill-icons {
-        width: 4.5em;
-        height: 5.5em;
-        padding: 0.3em;
+        width: 9em;
+        height: 6em;
+        padding: 0.5em;
+        margin: 0.5em;
     }
     h4 {
-        font-size: 17px;
+        font-size: 19px;
     }
     .skill-svg {
-        width: 2em;
+        width: 2.5em;
     }
     .woman {
         display: none;
@@ -360,36 +370,37 @@ h4 {
     /* Projects */
     #project-section {
         top: -10em;
+        padding-top: 0.5em;
     }
     #sodelicious {
-        top: 0em;
         width: 15em;
         height: 10em;
         top: -30em;
         left: 1em;
     }
     #portfolio-screenshot {
-        top: -22em;
+        top: -25em;
         width: 15em;
         height: 10em;
-        left: -2em;
+        left: -4em;
     }
     .github-icon {
-        width: 3em;
-        bottom: 26em;
+        width: 5em;
+        bottom: 27em;
         left: 17em;
     }
     .github-icon2 {
-        width: 3em;
-        left: -1em;
-        bottom: 49em;
+        width: 5em;
+        left: 17em;
+        bottom: 62em;
     }
     .project-1-about {
-        bottom: 25em;
-        left: 2em;
+        bottom: 20em;
+        left: 1em;
+        width: 15em;
     }
     .project-2-about {
         bottom: 18em;
-        left: 2em;
+        left: 3em;
     }
 }
