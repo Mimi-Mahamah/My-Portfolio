@@ -279,7 +279,7 @@ h4 {
     color: #50336D;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) and (min-width: 375px) {
     body {
         background: url(classy-fabric.png), linear-gradient(to left, #debfe0, #B4A5D1, #B1B8E6), no-repeat;
         overscroll-behavior-y: hidden;
@@ -397,10 +397,14 @@ h4 {
     .project-1-about {
         bottom: 20em;
         left: 1em;
-        width: 15em;
+        width: 11em;
     }
     .project-2-about {
-        bottom: 18em;
+        bottom: 17em;
         left: 3em;
+        width: 10em;
+    }
+    .coming-soon {
+        font-size: 35px;
     }
 }
