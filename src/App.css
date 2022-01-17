@@ -178,10 +178,11 @@ button:hover {
 }
 
 .skills2 {
-    width: 58em;
+    width: 70em;
     position: relative;
+    align-items: center;
     bottom: 57em;
-    left: 1em;
+    left: 6em;
 }
 
 .skill-icons {
