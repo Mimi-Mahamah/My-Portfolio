@@ -11,7 +11,9 @@
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
         "react-icons": "^4.3.1",
+        "react-lottie-segments": "^1.4.9",
         "react-scripts": "5.0.0",
+        "styled-components": "^5.3.3",
         "web-vitals": "^2.1.2"
     },
     "scripts": {
@@ -37,5 +39,8 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
+    },
+    "devDependencies": {
+        "@babel/eslint-parser": "^7.16.5"
     }
 }

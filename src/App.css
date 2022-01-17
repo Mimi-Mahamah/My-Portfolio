@@ -7,12 +7,8 @@
 
 body {
     font-family: 'Barlow Condensed', sans-serif;
-    background-color: #9187B0;
     background: url(classy-fabric.png), linear-gradient(to left, #debfe0, #B4A5D1, #B1B8E6), no-repeat;
-    background-size: inherit;
     overflow-x: hidden;
-    margin-bottom: 0;
-    min-height: 100%
 }
 
 .about {
@@ -86,6 +82,14 @@ h2 {
     bottom: 65em;
     left: 49em;
     overflow: hidden;
+}
+
+.toggle {
+    cursor: pointer;
+    width: 6em;
+    position: relative;
+    bottom: 106em;
+    left: 72em;
 }
 
 
@@ -279,7 +283,7 @@ h4 {
     color: #50336D;
 }
 
-@media screen and (max-width: 600px) and (min-width: 375px) {
+@media screen and (max-width: 600px) {
     body {
         background: url(classy-fabric.png), linear-gradient(to left, #debfe0, #B4A5D1, #B1B8E6), no-repeat;
         overscroll-behavior-y: hidden;
@@ -373,38 +377,45 @@ h4 {
         padding-top: 0.5em;
     }
     #sodelicious {
-        width: 15em;
-        height: 10em;
+        width: 14em;
+        height: 9em;
         top: -30em;
-        left: 1em;
+        left: 3em;
     }
     #portfolio-screenshot {
         top: -25em;
-        width: 15em;
-        height: 10em;
-        left: -4em;
+        width: 14em;
+        height: 9em;
+        left: 0em;
     }
     .github-icon {
-        width: 5em;
-        bottom: 27em;
-        left: 17em;
+        width: 3em;
+        bottom: 56em;
+        left: 17.5em;
     }
     .github-icon2 {
-        width: 5em;
-        left: 17em;
-        bottom: 62em;
+        width: 3em;
+        left: 0.5em;
+        bottom: 28em;
     }
     .project-1-about {
-        bottom: 20em;
-        left: 1em;
+        bottom: 28em;
+        left: 4em;
         width: 11em;
+        font-size: 17px;
     }
     .project-2-about {
-        bottom: 17em;
-        left: 3em;
-        width: 10em;
+        bottom: 23em;
+        left: 4em;
+        width: 11em;
+        font-size: 17px;
     }
     .coming-soon {
-        font-size: 35px;
+        font-size: 27px;
+    }
+    .toggle {
+        bottom: 73em;
+        left: 18em;
+        width: 3.5em;
     }
 }

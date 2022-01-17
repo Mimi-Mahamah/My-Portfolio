@@ -1,6 +1,6 @@
 import React from "react";
 import lottie from "lottie-web"
-import woman from "./woman-with-computer.json"
+import woman from "./lotties/woman-with-computer.json"
 
 export default function Lottie() {
     React.useEffect(() => {
