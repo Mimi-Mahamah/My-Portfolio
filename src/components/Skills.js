@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Skills() {
     return (
-      <div>
+      <>
 
         <h1 id="skill-section">SKILLS</h1>
         <section id="skills" className="skills">
@@ -49,6 +49,6 @@ export default function Skills() {
           <h4>VS Code</h4>
         </div>
         </section>
-      </div>
+      </>
  );
 }
