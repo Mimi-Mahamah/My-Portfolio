@@ -508,8 +508,10 @@ h4 {
         right: 1em;
     }
     .toggle {
-        bottom: 30em;
+        <<<<<<< HEAD bottom: 30em;
         left: 10em;
-        width: 3.5em;
+        =======bottom: 68em;
+        left: 18em;
+        >>>>>>>1358a9dd1ca53affe976d45dd689b071bb4378da width: 3.5em;
     }
 }
