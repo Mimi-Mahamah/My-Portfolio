@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -29,7 +30,7 @@ body {
     bottom: 8em;
 }
 
-p {
+.blurb {
     font-size: 25px;
     color: #FFDFD3;
     text-shadow: 1px 1px 5px #50336D;
@@ -59,7 +60,7 @@ h2 {
     text-shadow: 1px 1px 4px #50336D;
     position: relative;
     right: 10.5em;
-    bottom: 7em;
+    bottom: 6.5em;
 }
 
 .profile {
@@ -80,7 +81,7 @@ h2 {
     box-sizing: content-box;
     width: 18em;
     position: relative;
-    bottom: 65em;
+    bottom: 60em;
     left: 45em;
     overflow: hidden;
 }
@@ -89,7 +90,7 @@ h2 {
     cursor: pointer;
     width: 6em;
     position: relative;
-    bottom: 92em;
+    bottom: 89em;
     left: 65em;
 }
 
@@ -108,7 +109,8 @@ h2 {
     overflow: hidden;
 }
 
-button {
+.skills-button,
+.projects-button {
     width: 8em;
     height: 3em;
     font-size: 25px;
@@ -192,7 +194,7 @@ button:hover {
     border: 2px solid #B1B8E6;
     width: 10%;
     height: 8em;
-    background-color: #50336D;
+    background-color: #50336d;
     border-radius: 2em;
     padding-top: 0.5em;
 }
@@ -226,55 +228,121 @@ h4 {
 
 /* Project 1 */
 
-.github-icon {
-    width: 5em;
-    position: relative;
-    bottom: 93em;
-    left: 37em;
-}
-
 #sodelicious,
 #portfolio-screenshot {
     width: 30em;
     height: 20em;
     border-radius: 2em;
     border: 3px solid #02c7c9;
+    box-shadow: -3px 3px 5px #02c6c9a9;
 }
 
 #sodelicious {
     position: relative;
-    bottom: 47em;
-    left: 5em;
+    bottom: 43em;
 }
 
 .project-1-about {
     background-color: #50336D;
+    box-shadow: -3px 3px 2px #d291bc;
+    padding: 0.5em;
+    color: #FFDFD3;
+    font-size: 20px;
     position: relative;
-    bottom: 42em;
-    left: 30em;
+    bottom: 49em;
+    left: 32em;
     border-radius: 0.5em;
     margin: 0;
-    width: 10em;
+    width: 20em;
+}
+
+.project-1-about:hover {
+    box-shadow: -5px 5px 5px #02c7c9;
+}
+
+#sodelicious-logo {
+    position: relative;
+    bottom: 65em;
+    background-color: #d291bca4;
+    border-radius: 1em;
+    padding: 1em;
+    left: 13em;
+    box-shadow: -1px 1px 3px #02c7c9;
+    border-bottom: 2px solid #02c7c9;
+    border-left: 2px solid #02c7c9;
+}
+
+.github-icon {
+    width: 3.5em;
+    position: relative;
+    bottom: 60em;
+    left: 45em;
+}
+
+#live1 {
+    position: relative;
+    left: 43em;
+    bottom: 61em;
+    font-size: 15px;
+}
+
+.live1 {
+    cursor: pointer;
+    width: 7em;
+    height: 3em;
+    border-radius: 1em;
+    background-color: #FFDFD3;
+    border: none;
+    transition-duration: 0.2s;
+    color: #d291bc;
+    text-shadow: 0.5px 0.5px 0.5px #50336D;
 }
 
 
 /* Project 2 */
 
+#myportfolio-logo {
+    position: relative;
+    font-weight: lighter;
+    left: 10em;
+    bottom: 40em;
+    width: 8em;
+    font-size: 20px;
+    font-family: 'Quintessential', cursive;
+    background-color: #d291bca4;
+    border-radius: 1em;
+    padding: 1em;
+    box-shadow: -1px 1px 3px #02c7c9;
+    border-bottom: 2px solid #02c7c9;
+    border-left: 2px solid #02c7c9;
+}
+
 #portfolio-screenshot {
     position: relative;
-    bottom: 50em;
+    bottom: 49em;
+    left: 12em;
 }
 
 .project-2-about {
     background-color: #50336D;
     position: relative;
-    bottom: 41em;
-    left: 28em;
+    bottom: 54em;
+    left: 32em;
+    box-shadow: -3px 3px 2px #d291bc;
+    padding: 0.5em;
+    color: #FFDFD3;
+    font-size: 20px;
     border-radius: 0.5em;
+    margin: 0;
+    width: 20em;
+}
+
+.project-2-about:hover {
+    box-shadow: -5px 5px 5px #02c7c9;
 }
 
 .github-icon2 {
-    width: 5em;
+    width: 3.5em;
     position: relative;
     bottom: 58em;
     left: 2em;
@@ -311,17 +379,18 @@ h4 {
     }
     h2 {
         right: 0em;
-        bottom: 8.5em;
+        bottom: 7.5em;
     }
-    p {
+    .blurb {
         left: 2.5em;
-        bottom: 22.5em;
+        bottom: 20em;
         width: 10em;
         font-size: 24px;
+        margin: 0;
     }
     .contact {
         left: 8em;
-        bottom: 41em;
+        bottom: 37em;
         flex-direction: row;
     }
     .buttons {
@@ -329,10 +398,11 @@ h4 {
         justify-content: space-evenly;
         width: 19em;
         padding: 1em;
-        bottom: 29em;
+        bottom: 22em;
         left: 2em;
     }
-    button {
+    .skills-button,
+    .projects-button {
         width: 6em;
         font-size: 19px;
     }
@@ -375,12 +445,18 @@ h4 {
         width: 2.5em;
     }
     .woman {
-        display: none;
+        /* display: none; */
+        left: 2em;
+        top: 128em;
     }
     /* Projects */
     #project-section {
         top: -10em;
         padding-top: 0.5em;
+    }
+    #sodelicious-logo {
+        bottom: 31em;
+        left: 3.5em;
     }
     #sodelicious {
         width: 14em;
@@ -388,40 +464,52 @@ h4 {
         top: -30em;
         left: 3em;
     }
+    .live1 {
+        position: relative;
+        right: 30.5em;
+        top: 10em;
+        width: 4em;
+    }
+    #myportfolio-logo {
+        left: 3em;
+        bottom: 22em;
+    }
     #portfolio-screenshot {
         top: -25em;
         width: 14em;
         height: 9em;
-        left: 0em;
+        left: 2em;
     }
     .github-icon {
-        width: 3em;
-        bottom: 56em;
+        width: 2.5em;
+        bottom: 52em;
         left: 17.5em;
     }
     .github-icon2 {
-        width: 3em;
-        left: 0.5em;
+        width: 2.5em;
+        left: 2.5em;
         bottom: 28em;
     }
     .project-1-about {
         bottom: 28em;
-        left: 4em;
+        left: 3em;
         width: 11em;
         font-size: 17px;
     }
     .project-2-about {
         bottom: 23em;
-        left: 4em;
+        left: 3em;
         width: 11em;
         font-size: 17px;
     }
     .coming-soon {
         font-size: 27px;
+        bottom: 2em;
+        right: 1em;
     }
     .toggle {
-        bottom: 70em;
-        left: 18em;
+        bottom: 30em;
+        left: 10em;
         width: 3.5em;
     }
 }
