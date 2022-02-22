@@ -535,71 +535,123 @@ h4 {
     }
     .woman {
         display: none;
-        left: 2em;
-        top: 128em;
     }
     /* Projects */
     #project-section {
         top: -10em;
         padding-top: 0.5em;
     }
+    /* Project 1 */
+    .project-1 {
+        top: 48em;
+        position: relative;
+    }
     #sodelicious-logo {
-        bottom: 31em;
+        bottom: 36.5em;
         left: 3.5em;
+        width: 7em;
     }
     #sodelicious {
         width: 14em;
         height: 9em;
-        top: -30em;
-        left: 3em;
+        top: -27em;
+        left: -3em;
+    }
+    #github-icon {
+        width: 2.5em;
+    }
+    .github-icon {
+        width: 2.5em;
+        bottom: 31em;
+        left: 12em;
+    }
+    .project-1-about {
+        bottom: 26em;
+        left: 5em;
+        width: 12em;
+        height: 4em;
+        font-size: 15px;
+        overflow: scroll;
     }
     .live1 {
         position: relative;
-        right: 44.5em;
-        top: 24.5em;
-        width: 4em;
+        right: 44em;
+        top: -27em;
+        width: 5em
+    }
+    /* Project 2 */
+    .project-2 {
+        position: relative;
+        top: 49em;
     }
     #myportfolio-logo {
-        left: 3em;
-        bottom: 20em;
+        left: 5em;
+        bottom: 32em;
         margin: 0;
+        width: 8em;
+        font-size: 12px;
     }
     #portfolio-screenshot {
         top: -23em;
         width: 14em;
         height: 9em;
-        left: 3em;
+        left: 4em;
     }
-    .github-icon {
+    #github-icon2 {
         width: 2.5em;
-        bottom: 35.5em;
-        left: 12.8em;
     }
     .github-icon2 {
         width: 2.5em;
-        left: -5.5em;
+        left: -4em;
         bottom: 20em;
     }
-    .project-1-about {
-        bottom: 25em;
-        left: 3.5em;
-        width: 11em;
-        height: 5em;
-        font-size: 17px;
-        overflow: scroll;
-    }
     .project-2-about {
-        bottom: 19em;
-        left: 3.5em;
-        width: 11em;
-        height: 5em;
-        font-size: 17px;
+        bottom: 21em;
+        left: 5.5em;
+        width: 12em;
+        height: 4em;
+        font-size: 15px;
         overflow: scroll;
     }
-    .coming-soon {
-        font-size: 27px;
-        bottom: 2em;
+    /* Project 3 */
+    .project-3 {
+        position: relative;
         right: 0em;
+        top: 36em;
+    }
+    #airbnb-logo {
+        position: relative;
+        left: 3.5em;
+        bottom: 1em;
+        font-size: 12px;
+    }
+    #airbnb-screenshot {
+        top: 0em;
+        width: 14em;
+        height: 9em;
+        left: 4em;
+    }
+    .project-3-about {
+        position: relative;
+        left: 5.5em;
+        top: 3em;
+        font-size: 15px;
+        width: 12em;
+        height: 4em;
+        margin-bottom: 1em;
+    }
+    .github-icon3 {
+        position: relative;
+        left: -2em;
+        top: 3em;
+    }
+    #github-icon3 {
+        width: 2.5em;
+    }
+    .live3 {
+        position: relative;
+        right: 45em;
+        top: 7em;
     }
     .toggle {
         bottom: 66em;
