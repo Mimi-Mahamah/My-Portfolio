@@ -32,8 +32,9 @@ body {
 
 .blurb {
     font-size: 25px;
-    color: #FFDFD3;
-    text-shadow: 1px 1px 5px #50336D;
+    font-weight: bold;
+    color: #50336D;
+    /* text-shadow: 1px 2px 1px; */
     text-align: center;
     position: relative;
     bottom: 14em;
@@ -56,8 +57,7 @@ body {
 
 h2 {
     font-size: 40px;
-    color: #FFDFD3;
-    text-shadow: 1px 1px 4px #50336D;
+    color: #50336D;
     position: relative;
     right: 10.5em;
     bottom: 6.5em;
@@ -111,14 +111,15 @@ h2 {
 
 .skills-button,
 .projects-button {
+    cursor: pointer;
     width: 8em;
     height: 3em;
     font-size: 25px;
-    color: #d291bc;
-    text-shadow: 1px 1px 0.5px #50336D;
+    color: #02c7c9;
+    text-shadow: 1px 0.5px 2px blue;
     border-radius: 1em;
     border: none;
-    background-color: #FFDFD3;
+    background-color: #50336D;
     transition-duration: 0.4s;
 }
 
@@ -213,6 +214,7 @@ h4 {
 #project-section {
     position: relative;
     bottom: 16em;
+    margin-bottom: -15em;
     padding-top: 0.5em;
     display: flex;
     flex-direction: row;
@@ -225,64 +227,66 @@ h4 {
     text-shadow: 1px 1px 5px #50336D;
 }
 
-
-/* Project 1 */
-
 #sodelicious,
-#portfolio-screenshot {
+#portfolio-screenshot,
+#airbnb-screenshot {
     width: 30em;
     height: 20em;
     border-radius: 2em;
-    border: 3px solid #02c7c9;
-    box-shadow: -3px 3px 5px #02c6c9a9;
+    border: 1px solid #02c7c9;
+    box-shadow: -3px 3px 4px #50336D;
 }
 
-#sodelicious {
-    position: relative;
-    bottom: 43em;
-}
 
-.project-1-about {
-    background-color: #50336D;
-    box-shadow: -3px 3px 2px #d291bc;
-    padding: 0.5em;
-    color: #FFDFD3;
-    font-size: 20px;
-    position: relative;
-    bottom: 49em;
-    left: 32em;
-    border-radius: 0.5em;
-    margin: 0;
-    width: 20em;
-}
-
-.project-1-about:hover {
-    box-shadow: -5px 5px 5px #02c7c9;
-}
+/* Project 1 */
 
 #sodelicious-logo {
     position: relative;
-    bottom: 65em;
-    background-color: #d291bca4;
-    border-radius: 1em;
+    bottom: 16em;
+    background-color: #02c7c9;
+    border-bottom-left-radius: 1em;
+    border-top-right-radius: 1em;
     padding: 1em;
     left: 13em;
-    box-shadow: -1px 1px 3px #02c7c9;
+    box-shadow: -1px 1px 3px #50336D;
     border-bottom: 2px solid #02c7c9;
     border-left: 2px solid #02c7c9;
 }
 
-.github-icon {
-    width: 3.5em;
+#sodelicious {
     position: relative;
-    bottom: 60em;
+    top: 5em;
+}
+
+.project-1-about {
+    background-color: #50336D;
+    /* box-shadow: -3px 3px 5px #d291bc; */
+    padding: 0.5em;
+    color: #FFDFD3;
+    font-size: 20px;
+    position: relative;
+    bottom: 10em;
+    left: 32em;
+    border-bottom-left-radius: 1em;
+    border-top-right-radius: 1em;
+    margin: 0;
+    width: 20em;
+}
+
+.github-icon {
+    position: relative;
+    bottom: 12em;
     left: 45em;
 }
 
+#github-icon {
+    width: 3.5em;
+}
+
 #live1 {
-    position: relative;
+    /* position: relative;
     left: 43em;
-    bottom: 61em;
+    bottom: 61em; */
     font-size: 15px;
 }
 
@@ -290,12 +294,31 @@ h4 {
     cursor: pointer;
     width: 7em;
     height: 3em;
-    border-radius: 1em;
-    background-color: #FFDFD3;
-    border: none;
     transition-duration: 0.2s;
-    color: #d291bc;
-    text-shadow: 0.5px 0.5px 0.5px #50336D;
+    color: #02c7c9;
+    text-shadow: 1px 0.5px 2px blue;
+    border-radius: 1em;
+    border: none;
+    background-color: #50336D;
+}
+
+#live1 {
+    position: relative;
+    left: 43em;
+    bottom: 10em;
+    font-size: 15px;
+}
+
+.live1 {
+    cursor: pointer;
+    width: 7em;
+    height: 3em;
+    transition-duration: 0.2s;
+    color: #02c7c9;
+    text-shadow: 1px 0.5px 2px blue;
+    border-radius: 1em;
+    border: none;
+    background-color: #50336D;
 }
 
 
@@ -303,58 +326,124 @@ h4 {
 
 #myportfolio-logo {
     position: relative;
-    font-weight: lighter;
     left: 10em;
-    bottom: 40em;
+    font-weight: lighter;
     width: 8em;
+    height: 3em;
+    margin: 0;
     font-size: 20px;
     font-family: 'Quintessential', cursive;
-    background-color: #d291bca4;
-    border-radius: 1em;
+    background-color: #02c7c9;
+    border-bottom-left-radius: 1em;
+    border-top-right-radius: 1em;
     padding: 1em;
-    box-shadow: -1px 1px 3px #02c7c9;
+    box-shadow: -1px 1px 3px #50336D;
     border-bottom: 2px solid #02c7c9;
     border-left: 2px solid #02c7c9;
 }
 
 #portfolio-screenshot {
     position: relative;
-    bottom: 49em;
     left: 12em;
+    top: 1em;
 }
 
 .project-2-about {
     background-color: #50336D;
     position: relative;
-    bottom: 54em;
+    bottom: 13em;
     left: 32em;
-    box-shadow: -3px 3px 2px #d291bc;
+    /* box-shadow: -3px 3px 5px #d291bc; */
     padding: 0.5em;
     color: #FFDFD3;
     font-size: 20px;
-    border-radius: 0.5em;
+    border-bottom-left-radius: 1em;
+    border-top-right-radius: 1em;
     margin: 0;
     width: 20em;
 }
 
-.project-2-about:hover {
-    box-shadow: -5px 5px 5px #02c7c9;
-}
-
 .github-icon2 {
-    width: 3.5em;
     position: relative;
-    bottom: 58em;
-    left: 2em;
+    bottom: 4em;
+    left: 14em;
 }
 
-.coming-soon {
+#github-icon2 {
+    width: 3.5em;
+}
+
+
+/* Project 3 */
+
+#airbnb-screenshot {
     position: relative;
-    display: flex;
-    justify-content: center;
-    bottom: 6em;
-    font-size: 50px;
-    color: #50336D;
+    left: 12em;
+    top: 1em;
+}
+
+#airbnb-logo {
+    position: relative;
+    left: 10em;
+    font-weight: lighter;
+    width: 11em;
+    height: 3em;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Quintessential', cursive;
+    background-color: #02c7c9;
+    border-bottom-left-radius: 1em;
+    border-top-right-radius: 1em;
+    padding: 1em;
+    box-shadow: -1px 1px 3px #50336D;
+    border-bottom: 2px solid #02c7c9;
+    border-left: 2px solid #02c7c9;
+}
+
+.project-3-about {
+    background-color: #50336D;
+    position: relative;
+    bottom: 13em;
+    left: 32em;
+    /* box-shadow: -3px 3px 5px #d291bc; */
+    padding: 0.5em;
+    color: #FFDFD3;
+    font-size: 20px;
+    border-bottom-left-radius: 1em;
+    border-top-right-radius: 1em;
+    margin: 0;
+    width: 20em;
+    height: 6em;
+    overflow-y: scroll;
+}
+
+.github-icon3 {
+    position: relative;
+    bottom: 4em;
+    left: 14em;
+}
+
+#github-icon3 {
+    width: 3.5em;
+}
+
+#live3 {
+    position: relative;
+    left: 46em;
+    bottom: 11em;
+    font-size: 15px;
+}
+
+.live3 {
+    cursor: pointer;
+    width: 7em;
+    height: 3em;
+    transition-duration: 0.2s;
+    color: #02c7c9;
+    text-shadow: 1px 0.5px 2px blue;
+    border-radius: 1em;
+    border: none;
+    background-color: #50336D;
 }
 
 @media screen and (max-width: 600px) and (min-width: 350px) {
@@ -445,7 +534,7 @@ h4 {
         width: 2.5em;
     }
     .woman {
-        /* display: none; */
+        display: none;
         left: 2em;
         top: 128em;
     }
@@ -466,52 +555,55 @@ h4 {
     }
     .live1 {
         position: relative;
-        right: 30.5em;
-        top: 10em;
+        right: 44.5em;
+        top: 24.5em;
         width: 4em;
     }
     #myportfolio-logo {
         left: 3em;
-        bottom: 22em;
+        bottom: 20em;
+        margin: 0;
     }
     #portfolio-screenshot {
-        top: -25em;
+        top: -23em;
         width: 14em;
         height: 9em;
-        left: 2em;
+        left: 3em;
     }
     .github-icon {
         width: 2.5em;
-        bottom: 52em;
-        left: 17.5em;
+        bottom: 35.5em;
+        left: 12.8em;
     }
     .github-icon2 {
         width: 2.5em;
-        left: 2.5em;
-        bottom: 28em;
+        left: -5.5em;
+        bottom: 20em;
     }
     .project-1-about {
-        bottom: 28em;
-        left: 3em;
+        bottom: 25em;
+        left: 3.5em;
         width: 11em;
+        height: 5em;
         font-size: 17px;
+        overflow: scroll;
     }
     .project-2-about {
-        bottom: 23em;
-        left: 3em;
+        bottom: 19em;
+        left: 3.5em;
         width: 11em;
+        height: 5em;
         font-size: 17px;
+        overflow: scroll;
     }
     .coming-soon {
         font-size: 27px;
         bottom: 2em;
-        right: 1em;
+        right: 0em;
     }
     .toggle {
-        bottom: 30em;
-        left: 10em;
-        bottom: 68em;
-        left: 18em;
+        bottom: 66em;
+        left: 16em;
         width: 3.5em;
     }
 }
