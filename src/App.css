@@ -462,7 +462,7 @@ h4 {
     }
     .profile {
         right: 0em;
-        top: -3.5em;
+        top: -3em;
         width: 8em;
         height: 10em;
     }
@@ -562,11 +562,11 @@ h4 {
     }
     .github-icon {
         width: 2.5em;
-        bottom: 31em;
-        left: 12em;
+        bottom: 30.3em;
+        left: 13em;
     }
     .project-1-about {
-        bottom: 26em;
+        bottom: 25em;
         left: 5em;
         width: 12em;
         height: 4em;
@@ -576,8 +576,8 @@ h4 {
     .live1 {
         position: relative;
         right: 44em;
-        top: -27em;
-        width: 5em
+        top: -26em;
+        /* width: 5em */
     }
     /* Project 2 */
     .project-2 {
@@ -617,16 +617,16 @@ h4 {
     .project-3 {
         position: relative;
         right: 0em;
-        top: 36em;
+        top: 35em;
     }
     #airbnb-logo {
         position: relative;
         left: 3.5em;
-        bottom: 1em;
+        bottom: 2.5em;
         font-size: 12px;
     }
     #airbnb-screenshot {
-        top: 0em;
+        top: -1em;
         width: 14em;
         height: 9em;
         left: 4em;
@@ -643,7 +643,7 @@ h4 {
     .github-icon3 {
         position: relative;
         left: -2em;
-        top: 3em;
+        top: 2em;
     }
     #github-icon3 {
         width: 2.5em;
@@ -651,7 +651,7 @@ h4 {
     .live3 {
         position: relative;
         right: 45em;
-        top: 7em;
+        top: 6em;
     }
     .toggle {
         bottom: 66em;
