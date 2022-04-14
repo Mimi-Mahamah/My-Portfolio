@@ -4,7 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
 * {
     box-sizing: border-box;
-    border: solid 1px red;
 }
 
 #root {
