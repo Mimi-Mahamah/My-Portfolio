@@ -13,11 +13,10 @@ export default function Projects() {
                 <a href="https://github.com/Mimi-Mahamah/so-delicious" target="blank" rel="noreferrer" className="github-icon" >
                     <img src="./github.svg" alt="github icon" id="github-icon" />
                 </a>
-                <a id="live1" href="https://sodelicious.herokuapp.com/">
-                    <button className="live1">
-                    Live Site
-                    </button>
-                </a>
+                
+                <form id="live1">
+                    <button type="submit" className="live1" formaction="https://sodelicious.herokuapp.com/">Live Site</button>
+                </form>
             </div>
             {/* Project 2 */}
             <div className="project-2">
@@ -45,11 +44,9 @@ export default function Projects() {
                 <br />
                 Unfortunately, Airbnb has their own font not accessible to the public so I had to make do with the closest one I could find.
                 </p>
-                <a id="live3" href="https://airbnb-landing-clone.netlify.app/">
-                    <button className="live3">
-                    Live Site
-                    </button>
-                </a>
+                <form id="live3">
+                    <button type="submit" className="live3" formaction="https://sodelicious.herokuapp.com/">Live Site</button>
+                </form>
             </div>
             {/* Project 4 */}
             <div className="project-4">

@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
 * {
     box-sizing: border-box;
+    border: solid 1px red;
 }
 
 #root {
@@ -284,29 +285,10 @@ h4 {
 }
 
 #live1 {
-    /* position: relative;
-    left: 43em;
-    bottom: 61em; */
-    font-size: 15px;
-}
-
-.live1 {
-    cursor: pointer;
     width: 7em;
-    height: 3em;
-    transition-duration: 0.2s;
-    color: #02c7c9;
-    text-shadow: 1px 0.5px 2px blue;
-    border-radius: 1em;
-    border: none;
-    background-color: #50336D;
-}
-
-#live1 {
     position: relative;
-    left: 43em;
-    bottom: 10em;
-    font-size: 15px;
+    left: 44em;
+    bottom: 11em;
 }
 
 .live1 {
@@ -429,9 +411,9 @@ h4 {
 
 #live3 {
     position: relative;
-    left: 46em;
-    bottom: 11em;
-    font-size: 15px;
+    left: 43em;
+    bottom: 10em;
+    width: 7em;
 }
 
 .live3 {
