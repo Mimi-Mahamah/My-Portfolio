@@ -178,6 +178,7 @@ button:hover {
 .skills {
     position: relative;
     bottom: 66em;
+    right: 3em;
 }
 
 .skills2 {
@@ -185,7 +186,7 @@ button:hover {
     position: relative;
     align-items: center;
     bottom: 57em;
-    left: 6em;
+    left: 5em;
 }
 
 .skill-icons {
@@ -193,7 +194,7 @@ button:hover {
     flex-direction: column;
     align-items: center;
     border: 2px solid #B1B8E6;
-    width: 10%;
+    width: 15%;
     height: 8em;
     background-color: #50336d;
     border-radius: 2em;
@@ -232,7 +233,8 @@ h4 {
 #airbnb-screenshot {
     width: 30em;
     height: 20em;
-    border-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-top-right-radius: 2em;
     border: 1px solid #02c7c9;
     box-shadow: -3px 3px 4px #50336D;
 }
@@ -427,6 +429,15 @@ h4 {
     background-color: #50336D;
 }
 
+
+/* Footer*/
+
+footer {
+    border-top: solid 1.5px #50336D;
+    padding: 1em;
+    background: linear-gradient(to left, #debfe0, #B4A5D1, #B1B8E6);
+}
+
 @media screen and (max-width: 600px) and (min-width: 350px) {
     body {
         background: url(classy-fabric.png), linear-gradient(to left, #debfe0, #B4A5D1, #B1B8E6), no-repeat;
@@ -484,18 +495,18 @@ h4 {
     }
     .skills {
         right: 0em;
-        left: 2em;
-        bottom: 33em;
+        left: 0em;
+        bottom: 32em;
         flex-wrap: wrap;
-        width: 20em;
+        width: 22em;
         height: 16em;
         justify-content: space-evenly;
     }
     .skills2 {
-        left: 2em;
+        left: 0.8em;
         bottom: 32em;
         flex-wrap: wrap;
-        width: 20em;
+        width: 21em;
         border: solid #0000 1px;
         height: 24em;
         padding-top: 0.5em;
@@ -524,8 +535,8 @@ h4 {
     }
     /* Project 1 */
     .project-1 {
-        top: 48em;
         position: relative;
+        top: 48em;
     }
     #sodelicious-logo {
         bottom: 36.5em;
@@ -554,11 +565,9 @@ h4 {
         font-size: 15px;
         overflow: scroll;
     }
-    .live1 {
-        position: relative;
-        right: 44em;
-        top: -26em;
-        /* width: 5em */
+    #live1 {
+        left: 5em;
+        top: -33em;
     }
     /* Project 2 */
     .project-2 {
@@ -583,11 +592,11 @@ h4 {
     }
     .github-icon2 {
         width: 2.5em;
-        left: -4em;
-        bottom: 20em;
+        left: -2em;
+        bottom: 19.5em;
     }
     .project-2-about {
-        bottom: 21em;
+        bottom: 20.5em;
         left: 5.5em;
         width: 12em;
         height: 4em;
@@ -598,7 +607,7 @@ h4 {
     .project-3 {
         position: relative;
         right: 0em;
-        top: 35em;
+        top: 37em;
     }
     #airbnb-logo {
         position: relative;
@@ -629,14 +638,17 @@ h4 {
     #github-icon3 {
         width: 2.5em;
     }
-    .live3 {
-        position: relative;
-        right: 45em;
-        top: 6em;
+    #live3 {
+        left: 5em;
+        top: -5em;
     }
     .toggle {
         bottom: 66em;
         left: 16em;
         width: 3.5em;
+    }
+    footer {
+        position: relative;
+        top: 38em;
     }
 }

@@ -9,7 +9,7 @@ export default function Projects() {
                 <img src="./images/sodelicious-screenshot.webp" alt="so delicious screenshot" id="sodelicious" />
                 <p className="project-1-about">This web app was created with a team of 5, including 3 Frontend Developers, a backend developer and a Designer. 
                 <br/>
-                The project was created to highlight recipes across the diaspora that are not regularly seen in popular media.</p>
+                The project was created to highlight recipes across the diaspora which are not regularly seen in popular media.</p>
                 <a href="https://github.com/Mimi-Mahamah/so-delicious" target="blank" rel="noreferrer" className="github-icon" >
                     <img src="./github.svg" alt="github icon" id="github-icon" />
                 </a>
@@ -27,7 +27,7 @@ export default function Projects() {
                 </a>
                 <p className="project-2-about">This web app was created in React, using Typescript, HTML and CSS. 
                 <br />
-                I designed this portfolio to be simple, responsive and representative of my style and personlaity.</p>
+                I designed this portfolio to be simple, responsive and representative of my style.</p>
             </div>
             {/* Project 3 */}
             <div className="project-3">
@@ -54,6 +54,7 @@ export default function Projects() {
                 <img src="" alt="" />
                 <p>This webapp was created in React using Typscript, HTML and CSS.</p> */}
             </div>
+            <footer> &copy; 2022 Mimi Mahamah.</footer>
         </>
     )
 }

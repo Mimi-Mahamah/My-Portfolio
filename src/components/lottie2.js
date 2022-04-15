@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Lottie from 'react-lottie-segments';
 import animationData from './lotties/toggle.json';
 import { ThemeProvider } from "styled-components";
-import {lightTheme, darkTheme, GlobalStyles} from "./theme.js";
+import { lightTheme, darkTheme, GlobalStyles } from "./Theme.js";
 
 
 
@@ -22,7 +22,7 @@ export default function Lottie2() {
 
 
     const [sequence, setSequence] = useState({
-        segments: [0,1],
+        segments: [0, 1],
         forceFlag: true
     })
 
@@ -46,34 +46,40 @@ export default function Lottie2() {
         if (stop === 1 || stop === 481) {
             start = 28;
             stop = 259;
-          } else {
+        } else {
             start = 299;
             stop = 481;
-          }
-
-        setSequence({
-        segments: [start,stop],
-        forceFlag: true
-    })
         }
 
+        setSequence({
+            segments: [start, stop],
+            forceFlag: true
+        })
+    }
 
-    return (
-        <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
 
-            <GlobalStyles/>
-        <div className = "toggle" >
-        <div onClick={() => themeToggler() }>
-        <div onClick={() => animate()}>
-            <Lottie 
-            options = { options }
-            isClickToPauseDisabled={true}
-            playSegments={sequence}
-            />
-        </div>
-        </div>
-        </div >
-        </ThemeProvider>
+    return ( <
+        ThemeProvider theme = { theme === 'light' ? lightTheme : darkTheme } >
+
+        <
+        GlobalStyles / >
+        <
+        div className = "toggle" >
+        <
+        div onClick = {
+            () => themeToggler() } >
+        <
+        div onClick = {
+            () => animate() } >
+        <
+        Lottie options = { options }
+        isClickToPauseDisabled = { true }
+        playSegments = { sequence }
+        /> <
+        /div> <
+        /div> <
+        /div > <
+        /ThemeProvider>
     );
 }
 // e=>setTheme(theme.mode === 'dark' ? {mode:'light'} : {mode:'dark'
