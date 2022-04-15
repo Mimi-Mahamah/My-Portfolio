@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Lottie from 'react-lottie-segments';
 import animationData from './lotties/toggle.json';
 import { ThemeProvider } from "styled-components";
-import { lightTheme, darkTheme, GlobalStyles } from "./Theme.js";
+import { lightTheme, darkTheme, GlobalStyles } from "./theme.js";
 
 
 
@@ -67,18 +67,20 @@ export default function Lottie2() {
         div className = "toggle" >
         <
         div onClick = {
-            () => themeToggler() } >
+            () => themeToggler()
+        } >
         <
         div onClick = {
-            () => animate() } >
+            () => animate()
+        } >
         <
         Lottie options = { options }
         isClickToPauseDisabled = { true }
         playSegments = { sequence }
-        /> <
-        /div> <
-        /div> <
-        /div > <
+        /> < /
+        div > <
+        /div> < /
+        div > <
         /ThemeProvider>
     );
 }
