@@ -9,7 +9,7 @@ export default function About() {
             <img src="./images/me.webp" className="profile" alt="me"/>
             <h2>I'm Mimi!</h2>
             </div>
-            <p className="blurb">A Front End Developer with a passion for building responsive web applications, and learning new technologies.</p>
+            <p className="blurb">Front End Developer with a passion for building responsive web applications, and learning new technologies.</p>
             <div className="buttons">
             <a href="#skill-section">
             <button className="skills-button">Skills</button>

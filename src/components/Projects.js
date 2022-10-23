@@ -42,10 +42,10 @@ export default function Projects() {
                 <br />
                 I carefully looked over the design so as not to miss any design elements like shadows, gradients, positioning. 
                 <br />
-                Unfortunately, Airbnb has their own font not accessible to the public so I had to make do with the closest one I could find.
+                Unfortunately, Airbnb has their own font not accessible to the public so I used the closest match I could find.
                 </p>
                 <form id="live3">
-                    <button type="submit" className="live3" formaction="https://sodelicious.herokuapp.com/">Live Site</button>
+                    <button type="submit" className="live3" formaction="https://airbnb-landing-clone.netlify.app/" target="blank">Live Site</button>
                 </form>
             </div>
             {/* Project 4 */}
