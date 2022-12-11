@@ -6,10 +6,10 @@ export default function About() {
         <>
             <h1 className="greeting">Salutations</h1>
             <div className="about">
-            <img src="./images/me.webp" className="profile" alt="me"/>
+            {/* <img src="./images/me.webp" className="profile" alt="me"/> */}
             <h2>I'm Mimi!</h2>
             </div>
-            <p className="blurb">Front End Developer with a passion for building responsive web applications, and learning new technologies.</p>
+            <p className="blurb">Front End Developer: I build responsive web applications</p>
             <div className="buttons">
             <a href="#skill-section">
             <button className="skills-button">Skills</button>
