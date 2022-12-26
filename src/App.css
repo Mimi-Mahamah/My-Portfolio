@@ -83,7 +83,7 @@ h2 {
     box-sizing: content-box;
     width: 18em;
     position: relative;
-    bottom: 68em;
+    bottom: 80em;
     left: 5em;
     overflow: hidden;
 }
@@ -92,7 +92,7 @@ h2 {
     cursor: pointer;
     width: 6em;
     position: relative;
-    bottom: 89em;
+    bottom: 100em;
     left: 65em;
 }
 
@@ -101,8 +101,8 @@ h2 {
 
 .buttons {
     position: relative;
-    bottom: 46em;
-    left: 25em;
+    bottom: 50em;
+    left: 28em;
     padding: 5em;
     display: flex;
     flex-direction: column;
@@ -114,7 +114,7 @@ h2 {
 .skills-button,
 .projects-button {
     cursor: pointer;
-    width: 8em;
+    width: 6em;
     height: 3em;
     font-size: 25px;
     color: #888870;
@@ -139,8 +139,8 @@ button:hover {
     align-items: center;
     width: 5%;
     position: relative;
-    bottom: 81em;
-    left: 22em;
+    bottom: 95em;
+    left: 23em;
 }
 
 #github,
@@ -164,7 +164,7 @@ button:hover {
     width: 100%;
     font-family: 'Roboto Mono', monospace;
     font-size: 50px;
-    color: #02c7c9;
+    color: #888870;
     text-shadow: 1px 1px 5px #50336D;
 }
 
@@ -226,7 +226,7 @@ h4 {
     width: 100%;
     font-family: 'Roboto Mono', monospace;
     font-size: 50px;
-    color: #02c7c9;
+    color: #888870;
     text-shadow: 1px 1px 5px #50336D;
 }
 

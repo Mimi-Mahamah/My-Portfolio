@@ -4,7 +4,7 @@ export default function Projects() {
     return(
         <>
         <h1 id="project-section">PROJECTS</h1>
-            <div className="project-1">
+            <div className="project-1" id="project_1">
                 <img src="./images/sodelicious-logo.svg" alt="so delicious logo" id="sodelicious-logo"/>
                 <img src="./images/sodelicious-screenshot.webp" alt="so delicious screenshot" id="sodelicious" />
                 <p className="project-1-about">This web app was created with a team of 5, including 3 Frontend Developers, a backend developer and a Designer. 
@@ -19,7 +19,7 @@ export default function Projects() {
                 </form>
             </div>
             {/* Project 2 */}
-            <div className="project-2">
+            <div className="project-2" id="project_2">
                 <h3 id="myportfolio-logo">My Portfolio</h3>
                 <img src="./images/portfolio-screenshot.webp" alt="portfolio screenshot" id="portfolio-screenshot" />
                 <a href="https://github.com/Mimi-Mahamah/My-Portfolio" target = "blank" rel="noreferrer" className="github-icon2">
@@ -30,7 +30,7 @@ export default function Projects() {
                 I designed this portfolio to be simple, responsive and representative of my style.</p>
             </div>
             {/* Project 3 */}
-            <div className="project-3">
+            <div className="project-3" id="project_3">
                 <h3 id="airbnb-logo">Airbnb Landing Page</h3>
                 <img src="./images/Airbnb-clone.webp" alt="airbnb screenshot" id="airbnb-screenshot"/>
                 <a href="https://github.com/Mimi-Mahamah/Airbnb-Clone" target = "blank" rel="noreferrer" className="github-icon3">
