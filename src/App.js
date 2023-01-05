@@ -6,6 +6,8 @@ import Lottie from "./components/lottie";
 import Lottie2 from "./components/lottie2";
 import Projects from "./components/Projects";
 import './App.css';
+import HomePage from "./components/HomePage";
+
 
 
 
@@ -13,13 +15,9 @@ function App()  {
   
 return (
     <>
-      
-        <About />
+        <HomePage/>
         <Lottie/>
         <Lottie2/>
-        <Contact/>
-        <Skills/>
-        <Projects/>
   </>
   
 

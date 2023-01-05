@@ -13,66 +13,57 @@
 
 body {
     font-family: 'Barlow Condensed', sans-serif;
-    background: linear-gradient(to bottom, #e59a59, #ffd5af, #e59a59);
-    margin: auto;
+    background: #CBC195;
+    margin-left: 5em;
+    margin-right: 5em;
     max-width: 100vw;
     max-height: 100vh;
+}
+
+
+/* New CSS for Revised Portfolio*/
+
+header {
+    display: flex;
+    border-bottom: 3px solid #6B633E;
+}
+
+h1,
+h2 {
+    color: #34301f;
+}
+
+h2 {
+    font-size: 55px;
+    width: 7em;
+    position: relative;
+    bottom: 2em;
+}
+
+#name,
+#projects {
+    margin-right: 10em;
 }
 
 .about {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    border-right: 2px solid #6B633E;
+    width: 60%;
+    height: 85vh;
+    align-items: left;
     justify-content: center;
-    width: 100%;
-    height: 100vh;
-    color: #FFDFD3;
     position: relative;
-    bottom: 8em;
 }
 
 .blurb {
-    font-size: 25px;
-    font-weight: bold;
-    color: #50336D;
-    border: 2px solid #d291bc;
+    font-size: 20px;
+    color: #34301f;
+    width: 15em;
     border-radius: 15px;
     text-align: center;
     position: relative;
-    bottom: 14em;
-    left: 1em;
-    width: 30%;
-    height: 80%;
-}
-
-.greeting {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 50px;
-    color: #888870;
-    text-shadow: 1px 1px 5px;
-    width: 34%;
-    padding-left: 0.2em;
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
-
-h2 {
-    font-size: 40px;
-    color: #50336D;
-    position: relative;
-    right: 10.5em;
-    bottom: 6.5em;
-}
-
-.profile {
-    width: 10em;
-    height: 12em;
-    border: 2px solid #B1B8E6;
-    border-radius: 10em;
-    position: relative;
-    right: 26em;
-    top: 2em;
+    bottom: 3em;
 }
 
 
@@ -83,8 +74,9 @@ h2 {
     box-sizing: content-box;
     width: 18em;
     position: relative;
-    bottom: 80em;
-    left: 5em;
+    bottom: 25em;
+    /* border: 1px solid red; */
+    left: 23.2em;
     overflow: hidden;
 }
 
@@ -94,563 +86,4 @@ h2 {
     position: relative;
     bottom: 100em;
     left: 65em;
-}
-
-
-/* Buttons */
-
-.buttons {
-    position: relative;
-    bottom: 50em;
-    left: 28em;
-    padding: 5em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 20em;
-    overflow: hidden;
-}
-
-.skills-button,
-.projects-button {
-    cursor: pointer;
-    width: 6em;
-    height: 3em;
-    font-size: 25px;
-    color: #888870;
-    text-shadow: 1px 0.5px 2px whitesmoke;
-    border-radius: 1em;
-    border: none;
-    background-color: #712e1e;
-    transition-duration: 0.4s;
-}
-
-button:hover {
-    background-color: #888870;
-    color: #FFDFD3;
-}
-
-
-/* Contact Me section */
-
-.contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 5%;
-    position: relative;
-    bottom: 95em;
-    left: 23em;
-}
-
-#github,
-#linkedin {
-    width: 3em;
-    fill: #9187B0;
-}
-
-
-/* Skills Section */
-
-#skill-section {
-    position: relative;
-    bottom: 20em;
-    padding-top: 0.5em;
-    padding-bottom: 1.5em;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    border-top: 1.5px solid #50336D;
-    width: 100%;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 50px;
-    color: #888870;
-    text-shadow: 1px 1px 5px #50336D;
-}
-
-.skills,
-.skills2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 100%;
-    right: 5em;
-}
-
-.skills {
-    position: relative;
-    bottom: 66em;
-    right: 3em;
-}
-
-.skills2 {
-    width: 70em;
-    position: relative;
-    align-items: center;
-    bottom: 57em;
-    left: 5em;
-}
-
-.skill-icons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px solid #B1B8E6;
-    width: 15%;
-    height: 8em;
-    background-color: #50336d;
-    border-radius: 2em;
-    padding-top: 0.5em;
-}
-
-h4 {
-    font-size: 20px;
-    color: #FFDFD3;
-    text-shadow: 1px 1px 5px #50336D;
-    position: relative;
-    bottom: 0.5em;
-}
-
-
-/* Projects */
-
-#project-section {
-    position: relative;
-    bottom: 16em;
-    margin-bottom: -15em;
-    padding-top: 0.5em;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    border-top: 1.5px solid #50336D;
-    width: 100%;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 50px;
-    color: #888870;
-    text-shadow: 1px 1px 5px #50336D;
-}
-
-#sodelicious,
-#portfolio-screenshot,
-#airbnb-screenshot {
-    width: 30em;
-    height: 20em;
-    border-bottom-left-radius: 2em;
-    border-top-right-radius: 2em;
-    border: 1px solid #02c7c9;
-    box-shadow: -3px 3px 4px #50336D;
-}
-
-
-/* Project 1 */
-
-#sodelicious-logo {
-    position: relative;
-    bottom: 16em;
-    background-color: #02c7c9;
-    border-bottom-left-radius: 1em;
-    border-top-right-radius: 1em;
-    padding: 1em;
-    left: 13em;
-    box-shadow: -1px 1px 3px #50336D;
-    border-bottom: 2px solid #02c7c9;
-    border-left: 2px solid #02c7c9;
-}
-
-#sodelicious {
-    position: relative;
-    top: 5em;
-}
-
-.project-1-about {
-    background-color: #50336D;
-    /* box-shadow: -3px 3px 5px #d291bc; */
-    padding: 0.5em;
-    color: #FFDFD3;
-    font-size: 20px;
-    position: relative;
-    bottom: 10em;
-    left: 32em;
-    border-bottom-left-radius: 1em;
-    border-top-right-radius: 1em;
-    margin: 0;
-    width: 20em;
-}
-
-.github-icon {
-    position: relative;
-    bottom: 12em;
-    left: 45em;
-}
-
-#github-icon {
-    width: 3.5em;
-}
-
-#live1 {
-    width: 7em;
-    position: relative;
-    left: 44em;
-    bottom: 11em;
-}
-
-.live1 {
-    cursor: pointer;
-    width: 7em;
-    height: 3em;
-    transition-duration: 0.2s;
-    color: #02c7c9;
-    text-shadow: 1px 0.5px 2px blue;
-    border-radius: 1em;
-    border: none;
-    background-color: #50336D;
-}
-
-
-/* Project 2 */
-
-#myportfolio-logo {
-    position: relative;
-    left: 10em;
-    font-weight: lighter;
-    width: 8em;
-    height: 3em;
-    margin: 0;
-    font-size: 20px;
-    font-family: 'Quintessential', cursive;
-    background-color: #02c7c9;
-    border-bottom-left-radius: 1em;
-    border-top-right-radius: 1em;
-    padding: 1em;
-    box-shadow: -1px 1px 3px #50336D;
-    border-bottom: 2px solid #02c7c9;
-    border-left: 2px solid #02c7c9;
-}
-
-#portfolio-screenshot {
-    position: relative;
-    left: 12em;
-    top: 1em;
-}
-
-.project-2-about {
-    background-color: #50336D;
-    position: relative;
-    bottom: 13em;
-    left: 32em;
-    /* box-shadow: -3px 3px 5px #d291bc; */
-    padding: 0.5em;
-    color: #FFDFD3;
-    font-size: 20px;
-    border-bottom-left-radius: 1em;
-    border-top-right-radius: 1em;
-    margin: 0;
-    width: 20em;
-}
-
-.github-icon2 {
-    position: relative;
-    bottom: 4em;
-    left: 14em;
-}
-
-#github-icon2 {
-    width: 3.5em;
-}
-
-
-/* Project 3 */
-
-#airbnb-screenshot {
-    position: relative;
-    left: 12em;
-    top: 1em;
-}
-
-#airbnb-logo {
-    position: relative;
-    left: 10em;
-    font-weight: lighter;
-    width: 11em;
-    height: 3em;
-    margin: 0;
-    font-size: 20px;
-    font-family: 'Quintessential', cursive;
-    background-color: #02c7c9;
-    border-bottom-left-radius: 1em;
-    border-top-right-radius: 1em;
-    padding: 1em;
-    box-shadow: -1px 1px 3px #50336D;
-    border-bottom: 2px solid #02c7c9;
-    border-left: 2px solid #02c7c9;
-}
-
-.project-3-about {
-    background-color: #50336D;
-    position: relative;
-    bottom: 13em;
-    left: 32em;
-    /* box-shadow: -3px 3px 5px #d291bc; */
-    padding: 0.5em;
-    color: #FFDFD3;
-    font-size: 20px;
-    border-bottom-left-radius: 1em;
-    border-top-right-radius: 1em;
-    margin: 0;
-    width: 20em;
-    height: 6em;
-    overflow-y: scroll;
-}
-
-.github-icon3 {
-    position: relative;
-    bottom: 4em;
-    left: 14em;
-}
-
-#github-icon3 {
-    width: 3.5em;
-}
-
-#live3 {
-    position: relative;
-    left: 43em;
-    bottom: 10em;
-    width: 7em;
-}
-
-.live3 {
-    cursor: pointer;
-    width: 7em;
-    height: 3em;
-    transition-duration: 0.2s;
-    color: #02c7c9;
-    text-shadow: 1px 0.5px 2px blue;
-    border-radius: 1em;
-    border: none;
-    background-color: #50336D;
-}
-
-
-/* Footer*/
-
-footer {
-    border-top: solid 1.5px #50336D;
-    padding: 1em;
-    background: linear-gradient(to left, #debfe0, #B4A5D1, #B1B8E6);
-}
-
-@media screen and (max-width: 600px) and (min-width: 350px) {
-    body {
-        background: url(classy-fabric.png), linear-gradient(to left, #debfe0, #B4A5D1, #B1B8E6), no-repeat;
-        overscroll-behavior-y: hidden;
-    }
-    .greeting {
-        font-size: 2em;
-        padding-bottom: 0.5em;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 60%;
-        left: 2em;
-    }
-    .profile {
-        right: 0em;
-        top: -3em;
-        width: 8em;
-        height: 10em;
-    }
-    h2 {
-        right: 0em;
-        bottom: 7.5em;
-    }
-    .blurb {
-        left: 2.5em;
-        bottom: 20em;
-        width: 10em;
-        font-size: 24px;
-        margin: 0;
-    }
-    .contact {
-        left: 8em;
-        bottom: 37em;
-        flex-direction: row;
-    }
-    .buttons {
-        flex-direction: row;
-        justify-content: space-evenly;
-        width: 19em;
-        padding: 1em;
-        bottom: 22em;
-        left: 2em;
-    }
-    .skills-button,
-    .projects-button {
-        width: 6em;
-        font-size: 19px;
-    }
-    /* Skill section */
-    #skill-section {
-        padding-top: 0.5em;
-        right: 0em;
-        bottom: 9em;
-    }
-    .skills {
-        right: 0em;
-        left: 0em;
-        bottom: 32em;
-        flex-wrap: wrap;
-        width: 22em;
-        height: 16em;
-        justify-content: space-evenly;
-    }
-    .skills2 {
-        left: 0.8em;
-        bottom: 32em;
-        flex-wrap: wrap;
-        width: 21em;
-        border: solid #0000 1px;
-        height: 24em;
-        padding-top: 0.5em;
-        padding-bottom: 2em;
-        justify-content: space-evenly;
-    }
-    .skill-icons {
-        width: 9em;
-        height: 6em;
-        padding: 0.5em;
-        margin: 0.5em;
-    }
-    h4 {
-        font-size: 19px;
-    }
-    .skill-svg {
-        width: 2.5em;
-    }
-    .woman {
-        display: none;
-    }
-    /* Projects */
-    #project-section {
-        top: -10em;
-        padding-top: 0.5em;
-    }
-    /* Project 1 */
-    .project-1 {
-        position: relative;
-        top: 48em;
-    }
-    #sodelicious-logo {
-        bottom: 36.5em;
-        left: 3.5em;
-        width: 7em;
-    }
-    #sodelicious {
-        width: 14em;
-        height: 9em;
-        top: -27em;
-        left: -3em;
-    }
-    #github-icon {
-        width: 2.5em;
-    }
-    .github-icon {
-        width: 2.5em;
-        bottom: 30.3em;
-        left: 13em;
-    }
-    .project-1-about {
-        bottom: 25em;
-        left: 5em;
-        width: 12em;
-        height: 4em;
-        font-size: 15px;
-        overflow: scroll;
-    }
-    #live1 {
-        left: 5em;
-        top: -33em;
-    }
-    /* Project 2 */
-    .project-2 {
-        position: relative;
-        top: 49em;
-    }
-    #myportfolio-logo {
-        left: 5em;
-        bottom: 32em;
-        margin: 0;
-        width: 8em;
-        font-size: 12px;
-    }
-    #portfolio-screenshot {
-        top: -23em;
-        width: 14em;
-        height: 9em;
-        left: 4em;
-    }
-    #github-icon2 {
-        width: 2.5em;
-    }
-    .github-icon2 {
-        width: 2.5em;
-        left: -2em;
-        bottom: 19.5em;
-    }
-    .project-2-about {
-        bottom: 20.5em;
-        left: 5.5em;
-        width: 12em;
-        height: 4em;
-        font-size: 15px;
-        overflow: scroll;
-    }
-    /* Project 3 */
-    .project-3 {
-        position: relative;
-        right: 0em;
-        top: 37em;
-    }
-    #airbnb-logo {
-        position: relative;
-        left: 3.5em;
-        bottom: 2.5em;
-        font-size: 12px;
-    }
-    #airbnb-screenshot {
-        top: -1em;
-        width: 14em;
-        height: 9em;
-        left: 4em;
-    }
-    .project-3-about {
-        position: relative;
-        left: 5.5em;
-        top: 3em;
-        font-size: 15px;
-        width: 12em;
-        height: 4em;
-        margin-bottom: 1em;
-    }
-    .github-icon3 {
-        position: relative;
-        left: -2em;
-        top: 2em;
-    }
-    #github-icon3 {
-        width: 2.5em;
-    }
-    #live3 {
-        left: 5em;
-        top: -5em;
-    }
-    .toggle {
-        bottom: 66em;
-        left: 16em;
-        width: 3.5em;
-    }
-    footer {
-        position: relative;
-        top: 38em;
-    }
 }
