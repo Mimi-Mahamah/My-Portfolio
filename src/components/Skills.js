@@ -4,8 +4,6 @@ import React from "react";
 export default function Skills() {
     return (
       <>
-
-        <h1 id="skill-section">SKILLS</h1>
         
         <section id="skills" className="skills">
         

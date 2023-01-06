@@ -20,12 +20,10 @@ body {
     max-height: 100vh;
 }
 
-
-/* New CSS for Revised Portfolio*/
-
 header {
     display: flex;
-    border-bottom: 3px solid #6B633E;
+    border-bottom: 2px solid #6B633E;
+    justify-content: center;
 }
 
 h1,
@@ -43,6 +41,11 @@ h2 {
 #name,
 #projects {
     margin-right: 10em;
+}
+
+#projects {
+    position: relative;
+    left: 6em;
 }
 
 .about {
@@ -82,8 +85,35 @@ h2 {
 
 .toggle {
     cursor: pointer;
-    width: 6em;
+    width: 4em;
     position: relative;
-    bottom: 100em;
+    bottom: 55em;
     left: 65em;
+}
+
+
+/* Skills */
+
+.skill-svg {
+    width: 6em;
+}
+
+.skills,
+.skills2 {
+    display: flex;
+    /* border: solid 1px red; */
+    position: relative;
+    width: 25em;
+    left: 42em;
+    bottom: 47em;
+}
+
+.skills2 {
+    padding-top: 3em;
+    padding-left: 3em;
+}
+
+.skill-icons {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }

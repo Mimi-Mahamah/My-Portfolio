@@ -4,8 +4,8 @@ import { createGlobalStyle } from "styled-components"
 export const lightTheme = {}
 
 export const darkTheme = {
-    gradient: 'linear-gradient(to left, #281429, #1b1528, #0f132e)',
-    fontColor: '#fff'
+    gradient: '#34301f',
+    fontColor: '#6B633E'
 }
 
 export const GlobalStyles = createGlobalStyle `

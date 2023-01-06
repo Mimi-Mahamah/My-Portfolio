@@ -17,7 +17,8 @@ return (
     <>
         <HomePage/>
         <Lottie/>
-        <Lottie2/>
+        {/* <Lottie2/> */}
+        <Skills/>
   </>
   
 

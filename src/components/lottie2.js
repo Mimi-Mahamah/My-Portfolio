@@ -61,12 +61,9 @@ export default function Lottie2() {
     return ( <
         ThemeProvider theme = { theme === 'light' ? lightTheme : darkTheme } >
 
-        <
-        GlobalStyles / >
-        <
-        div className = "toggle" >
-        <
-        div onClick = {
+        <GlobalStyles / >
+        <div className = "toggle" >
+        <div onClick = {
             () => themeToggler()
         } >
         <
@@ -77,11 +74,11 @@ export default function Lottie2() {
         Lottie options = { options }
         isClickToPauseDisabled = { true }
         playSegments = { sequence }
-        /> < /
-        div > <
-        /div> < /
-        div > <
-        /ThemeProvider>
+        /> 
+        </div> 
+        </div> 
+        </div> 
+        </ThemeProvider>
     );
 }
 // e=>setTheme(theme.mode === 'dark' ? {mode:'light'} : {mode:'dark'
