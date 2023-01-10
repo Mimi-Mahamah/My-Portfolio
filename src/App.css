@@ -27,7 +27,8 @@ header {
 }
 
 h1,
-h2 {
+h2,
+p {
     color: #34301f;
 }
 
@@ -38,14 +39,27 @@ h2 {
     bottom: 2em;
 }
 
-#name,
-#projects {
+.name,
+.projects {
     margin-right: 10em;
 }
 
-#projects {
+.projects,
+.contact {
     position: relative;
+    top: 1em;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #34301f;
+}
+
+.projects {
     left: 6em;
+}
+
+a:hover {
+    color: #9A6F4D;
 }
 
 .about {
@@ -116,4 +130,12 @@ h2 {
 .skill-icons {
     padding-left: 0.5em;
     padding-right: 0.5em;
+}
+
+.skill-titles {
+    /* border: solid 1px red; */
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    font-weight: bold;
 }
