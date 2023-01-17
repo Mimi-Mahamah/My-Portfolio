@@ -37,6 +37,7 @@ h2 {
     width: 7em;
     position: relative;
     bottom: 2em;
+    left: 1em;
 }
 
 .name,
@@ -71,6 +72,7 @@ a:hover {
     align-items: left;
     justify-content: center;
     position: relative;
+    top: 3em;
 }
 
 .blurb {
@@ -80,7 +82,34 @@ a:hover {
     border-radius: 15px;
     text-align: center;
     position: relative;
-    bottom: 3em;
+    bottom: 7em;
+    left: 3.5em;
+}
+
+.aboutme {
+    font-size: 25px;
+    color: #34301f;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 5.5em;
+    left: 5em;
+}
+
+.socials {
+    width: 13%;
+    position: relative;
+    bottom: 9em;
+    left: 9.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.github-icon,
+.linkedin-icon {
+    width: 4em;
+    padding: 0.5em;
 }
 
 
@@ -91,7 +120,7 @@ a:hover {
     box-sizing: content-box;
     width: 18em;
     position: relative;
-    bottom: 25em;
+    bottom: 28em;
     /* border: 1px solid red; */
     left: 23.2em;
     overflow: hidden;
@@ -115,11 +144,10 @@ a:hover {
 .skills,
 .skills2 {
     display: flex;
-    /* border: solid 1px red; */
     position: relative;
-    width: 25em;
+    width: 28em;
     left: 42em;
-    bottom: 47em;
+    bottom: 50em;
 }
 
 .skills2 {

@@ -6,10 +6,6 @@ export default function Skills() {
       <>
         
         <section id="skills" className="skills">
-        
-        <br />
-        <br />
-
         <div className="skill-icons">
         <img src="./html-5.svg" className="skill-svg" alt="html icon" />
         <p className="skill-titles"> HTML</p>
