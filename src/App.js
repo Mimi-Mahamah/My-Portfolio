@@ -1,7 +1,7 @@
 import React from "react";
 import Skills from "./components/Skills"
 import Lottie from "./components/lottie";
-import Lottie2 from "./components/lottie2";
+import Projects from "./components/Projects"
 import './App.css';
 import HomePage from "./components/HomePage";
 
@@ -14,8 +14,8 @@ return (
     <>
         <HomePage/>
         <Lottie/>
-        {/* <Lottie2/> */}
         <Skills/>
+        <Projects/>
   </>
   
 

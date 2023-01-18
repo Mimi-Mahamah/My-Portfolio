@@ -32,7 +32,7 @@ p {
     color: #34301f;
 }
 
-h2 {
+#title {
     font-size: 55px;
     width: 7em;
     position: relative;
@@ -41,11 +41,16 @@ h2 {
 }
 
 .name,
-.projects {
+.projects-header {
     margin-right: 10em;
 }
 
-.projects,
+.name {
+    position: relative;
+    left: 1em;
+}
+
+.projects-header,
 .contact {
     position: relative;
     top: 1em;
@@ -55,7 +60,7 @@ h2 {
     color: #34301f;
 }
 
-.projects {
+.projects-header {
     left: 6em;
 }
 
@@ -72,7 +77,7 @@ a:hover {
     align-items: left;
     justify-content: center;
     position: relative;
-    top: 3em;
+    top: 1em;
 }
 
 .blurb {
@@ -166,4 +171,63 @@ a:hover {
     justify-content: center;
     font-size: 21px;
     font-weight: bold;
+}
+
+
+/* Projects */
+
+.projects {
+    position: relative;
+    bottom: 45em;
+}
+
+.projects-title {
+    border-bottom: 2px solid #6B633E;
+    padding-bottom: 0.6em;
+}
+
+.project-1 {
+    position: relative;
+    top: 3em;
+}
+
+.container {
+    width: 40em;
+    height: 25em;
+    background-color: #9A6F4D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#airbnbclonescreenshot {
+    width: 35em;
+    height: 20em;
+}
+
+.airbnb-about {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 43em;
+    bottom: 25em;
+}
+
+.airbnb {
+    width: 20%;
+    font-size: 25px;
+    text-decoration: none;
+    color: #34301f;
+}
+
+
+/* Footer */
+
+footer {
+    border-top: 2px solid #6B633E;
+    padding-top: 1em;
+    padding-left: 5em;
+    font-size: 20px;
+    color: #34301f;
 }
